@@ -5,6 +5,7 @@
 header {
   background-color: gray;
   text-decoration-color: antiquewhites;
+  
 }
 h3 {
   font-family: 'Fira Sans', sans-serif;
@@ -41,18 +42,21 @@ article section {
   overflow: auto;
 }
 
-nav ul li { 
+ul { 
+display: flex;
 color: #000;
-display: inline;
-padding: 20px;
-
-
-
+padding: 0px;
+margin: 0px;
+justify-content: center;
+height: 70px;
+overflow: hidden; 
+list-style-type: none;
 }
 
 nav {
-  text-align: center;
-  padding-bottom: 15px;
+  display: flex;
+  width: 960px;
+  margin: auto;
 }
 
 footer {
@@ -61,6 +65,32 @@ footer {
 
 a {
   color: azure;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 960px;
+  margin: auto;
+  padding-bottom: none;
+}
+
+li{
+  float: left;
+  width: 200px;
+
+}
+
+li a {
+  display:block;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 30%;
+}
+
+a img {
+  float: center;
 }
 
 
